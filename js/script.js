@@ -18,10 +18,10 @@ $('.slick-dots').on('click', function() {
 
   $(".boogie-slideshow").vegas({
     slides: [
-    	{ src: "img/boogie/buddies.jpg"},
+    	  { src: "img/boogie/buddies.jpg"},
         { src: "img/boogie/dance.jpg" },
         { src: "img/boogie/turtle.jpg" },
-        { src: "img/boogie/barrel.jpg" },,
+        { src: "img/boogie/barrel.jpg" },
         { src: "img/boogie/radio.jpg" },
         { src: "img/boogie/sandwich.jpg" },
     ],
