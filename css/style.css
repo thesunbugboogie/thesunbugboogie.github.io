@@ -14,7 +14,7 @@ body {
 *************************/
 
 nav {
-	border-bottom: 1px solid #746b6e;
+	border-bottom: 2px solid #746b6e;
 }
 .bg-faded {
 	color: #0a0705;
@@ -42,6 +42,7 @@ nav {
 .clam-towel {
 	height: 80px;
 	width: 80px;
+	margin-right: 10px;
 }
 
 /*************************
@@ -62,7 +63,7 @@ nav {
 	height: 650px;
 	font-size: 1.4rem;
 	margin-top: 30px;
-	line-height: 2.10rem;
+	line-height: 2.5rem;
 }
 
 .title::after {
@@ -86,7 +87,7 @@ nav {
 	line-height: 60px;
 	padding-right: 6px;
 	padding-left: 3px;
-	padding-top: 5px; 
+	padding-top: 9px; 
 }
 
 p .story {
