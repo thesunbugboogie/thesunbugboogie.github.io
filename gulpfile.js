@@ -5,8 +5,7 @@ const gulp = require('gulp'),
 	  minCss = require('gulp-minify-css'),
 	  rename = require('gulp-rename'),
 	  uglify = require('gulp-uglify'),
-	  stripDebug = require('gulp-strip-debug'),
-	  annotate = require('gulp-ng-annotate');
+	  stripDebug = require('gulp-strip-debug');
 
 gulp.task('doIt', () => {
     //Concat and Minify CSS
@@ -26,7 +25,7 @@ gulp.task('doIt', () => {
         .pipe(rename('build.min.css'))
         .pipe(gulp.dest('./css'));
 
-    //Combine JS Files into core.js
+    //Combine JS Files
     gulp.src(['./js/jquery-3.2.1.min.js',
     		   './js/tether.min.js',
     		   './js/bootstrap.js',
@@ -35,7 +34,6 @@ gulp.task('doIt', () => {
     		   './js/script.js'])
         .pipe(concat('bundle.js'))
         .pipe(stripDebug())
-        .pipe(annotate()) // Makes angular safe to minify.
         .pipe(uglify()) // Minifies the concatenated js file.
         .pipe(rename('bundle.min.js'))
         .pipe(gulp.dest('./js'));
