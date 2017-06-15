@@ -4,7 +4,8 @@ $(document).ready(function(){
 $('.slick').slick({
   dots: true,
   infinite: true,
-  speed: 2000,
+  autoplaySpeed: 10000,
+  speed: 3000,
   fade: true,
   autoplay: true,
   cssEase: 'linear',
