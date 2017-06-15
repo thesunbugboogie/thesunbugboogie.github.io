@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacobWylie/sunbugboogie.git"
+    "url": "git+https://github.com/thesunbugboogie/thesunbugboogie.io.git"
   },
   "author": "Jacob Wylie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JacobWylie/sunbugboogie/issues"
+    "url": "https://thesunbugboogie.io.git"
   },
-  "homepage": "https://github.com/JacobWylie/sunbugboogie#readme",
+  "homepage": "https://thesunbugboogie.io.git",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
